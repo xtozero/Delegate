@@ -6,10 +6,11 @@ set (SOURCE
  
  enable_testing()
  
+ include_directories(../Delegate/Source/Public)
  include_directories(../ThirdParty/googletest/googletest/include)
  
  add_executable(unit_test ${HEADER} ${SOURCE})
  
- target_link_libraries(unit_test gtest_main)
+ target_link_libraries(unit_test gtest_main Delegate)
  
  add_test(NAME unit_test COMMAND unit_test)

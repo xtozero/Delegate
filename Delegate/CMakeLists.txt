@@ -1,5 +1,5 @@
 set(HEADER
-	"./Source/Public/Point2d.h"
+	"./Source/Public/Delegate.h"
 )
 
 set (SOURCE
@@ -8,4 +8,4 @@ set (SOURCE
 
 include_directories(Source/Public)
 
-add_executable(sample_project ${HEADER} ${SOURCE})
+add_library(Delegate STATIC ${HEADER} ${SOURCE})

@@ -1,5 +1,5 @@
 # Delegate
-[![Build Status](https://travis-ci.com/xtozero/Delegate.svg?token=XYF23kpdHvwmmWT7kJzc&branch=master)](https://travis-ci.com/xtozero/Delegate)
+[![Build Status](https://travis-ci.com/xtozero/Delegate.svg?token=XYF23kpdHvwmmWT7kJzc&branch=master)](https://travis-ci.com/xtozero/Delegate)[![Build status](https://ci.appveyor.com/api/projects/status/34liphxupa2civv6?svg=true)](https://ci.appveyor.com/project/xtozero/delegate)[![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/xtozero/Delegate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/xtozero/Delegate/context:cpp)
 
 Simple delegate, written in c++ 17
 
